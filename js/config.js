@@ -6,8 +6,7 @@ MWS.config = {
 	"expand_first_result": false, //automatically open the first result on every page
 
 	"mws_query_url": //URL to put questions to
-		resolve("php/tema_proxy.php"), // Use this for TeMa Search
-		// resolve("php/mws_proxy.php"), // Use this for MWS
+		"http://opal.eecs.jacobs-university.de:8889/", 
 	"mws_warn_highlight": false, //warn about failed highlights
 	"mws_highlight_colors": ["blue", "green", "purple", "orange", "red"], //colors for show substitutions. Set to an empty array to disable. 
 
@@ -23,7 +22,8 @@ MWS.config = {
 	"latexml_show_warning_message": true, //show the warning message if latexml is disabled
 	"latexml_debounce_interval": 250, // debouncing interval in ms
 	"latexml_url": //LaTexML URL
-		resolve("php/latexml_proxy.php"),
+		"http://latexml.mathweb.org/convert", //use this one directly
+		// resolve("php/latexml_proxy.php"), //use this one if you want to proxy all the traffic
 };
 
 //DO NOT CHANGE CODE BELOW
