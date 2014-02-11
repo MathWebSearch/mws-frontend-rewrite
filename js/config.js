@@ -26,6 +26,10 @@ MWS.config = {
 		// resolve("php/latexml_proxy.php"), //use this one if you want to proxy all the traffic
 };
 
+MWS.config.examples = [
+	["Test example"]
+]
+
 //DO NOT CHANGE CODE BELOW
 if(MWS.config.force_query_params){
 	MWS.config.latexml_allow_disable = false; 
