@@ -22,13 +22,26 @@ a.footlink:hover {
 	text-decoration: underline; 
 }
 
+.title > a {
+    font-size: 2em;
+    background-color: #b31b1b;
+    color: #fff;
+    padding: .75em;
+}
+
 .title > a > img {
 	height: auto;
 	max-width: 270px;
+    max-height: 200px;
 }
 .footer > a> img {
 	max-height: 80px;
 	width: auto;
+}
+
+.tema-highlight {
+    color: red;
+    background-color: yellow;
 }
 
 .text-highlight{
@@ -43,4 +56,8 @@ a.footlink:hover {
 
 .math-highlight-qvar{
 	color: red;
+}
+
+#math-preview {
+	font-size: 200%; 
 }
